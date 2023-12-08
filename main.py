@@ -6,6 +6,14 @@
 
 
 if __name__ == '__main__':
-    pass
+    input = ["Hello", "2", "World", ":-)"]
+    count = 0
+    resultcount = 0
+    result = []
+    for item in input:
+        if len(item)<=3:
+            result.append(item)
+
+    print(result)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
